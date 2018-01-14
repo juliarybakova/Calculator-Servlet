@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="CalculatorServlet:war exploded">
+    <output-path>$PROJECT_DIR$/CalculatorServlet/target/CalculatorServlet-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CalculatorServlet" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="Calculator-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="Calculator" />
+          </element>
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.2" />
+          <element id="library" level="project" name="Maven: org.testng:testng:6.3.1" />
+          <element id="library" level="project" name="Maven: org.beanshell:bsh:2.0b4" />
+          <element id="library" level="project" name="Maven: com.beust:jcommander:1.12" />
+          <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.6" />
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.1.0-M1" />
+          <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.0.0" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.1.0-M1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/CalculatorServlet/target/CalculatorServlet-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="CalculatorServlet/web/Web" />
+    </root>
+  </artifact>
+</component>

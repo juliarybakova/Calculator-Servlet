@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CalculatorServlet:war">
+    <output-path>$PROJECT_DIR$/CalculatorServlet/target</output-path>
+    <root id="archive" name="CalculatorServlet-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="CalculatorServlet:war exploded" />
+    </root>
+  </artifact>
+</component>

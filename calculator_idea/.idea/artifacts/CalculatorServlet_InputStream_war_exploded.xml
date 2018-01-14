@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="CalculatorServlet_InputStream:war exploded">
+    <output-path>$PROJECT_DIR$/CalculatorServlet_InputStream/target/CalculatorServlet(InputStream)</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CalculatorServlet_InputStream" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.testng:testng:6.3.1" />
+          <element id="library" level="project" name="Maven: org.beanshell:bsh:2.0b4" />
+          <element id="library" level="project" name="Maven: com.beust:jcommander:1.12" />
+          <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.6" />
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.1.0-M1" />
+          <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.0.0" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.1.0-M1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/CalculatorServlet_InputStream/target/CalculatorServlet(InputStream)/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="CalculatorServlet_InputStream/web/Web" />
+    </root>
+  </artifact>
+</component>
