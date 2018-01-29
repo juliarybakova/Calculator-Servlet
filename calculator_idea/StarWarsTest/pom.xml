@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>calculator_idea</artifactId>
+        <groupId>automation_courses</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>StarWarsTest</artifactId>
+<dependencies>
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.8.2</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.mashape.unirest/unirest-java -->
+    <dependency>
+        <groupId>com.mashape.unirest</groupId>
+        <artifactId>unirest-java</artifactId>
+        <version>1.4.9</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.scalaj/scalaj-http -->
+    <dependency>
+        <groupId>org.scalaj</groupId>
+        <artifactId>scalaj-http_2.12</artifactId>
+        <version>2.3.0</version>
+    </dependency>
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.16.18</version>
+        <scope>provided</scope>
+    </dependency>
+    <dependency>
+                     <groupId>org.apache.httpcomponents</groupId>
+                     <artifactId>httpclient</artifactId>
+                     <version>4.5.3</version>
+                 </dependency>
+
+
+             <dependency>
+                <groupId>com.google.code.gson</groupId>
+                 <artifactId>gson</artifactId>
+                 <version>2.8.2</version>
+             </dependency>
+    <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+    <dependency>
+        <groupId>com.googlecode.json-simple</groupId>
+        <artifactId>json-simple</artifactId>
+        <version>1.1.1</version>
+    </dependency>
+
+
+             <dependency>
+                 <groupId>org.assertj</groupId>
+                 <artifactId>assertj-core</artifactId>
+                 <version>3.8.0</version>
+            </dependency>
+
+
+           <dependency>
+                <groupId>org.projectlombok</groupId>
+                 <artifactId>lombok</artifactId>
+              <version>1.16.18</version>
+                <scope>provided</scope>
+             </dependency>
+                 <dependency>
+                <groupId>junit</groupId>
+               <artifactId>junit</artifactId>
+                 <version>4.12</version>
+                 <scope>test</scope>
+            </dependency>
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.8.2</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.8.2</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.glassfish.jersey.core</groupId>
+        <artifactId>jersey-client</artifactId>
+        <version>2.25.1</version>
+    </dependency>
+
+</dependencies>
+</project>
